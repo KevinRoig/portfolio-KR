@@ -3,7 +3,6 @@ include('header.php');
 ?>
 <link rel="stylesheet" href="projects.css">
 
-<body>
     <section id="projects" class="odd_section">
         <div class="first_container">
             <div class="left_container">
@@ -78,7 +77,7 @@ include('header.php');
             <div class="tools_list">
 
                 <ul>
-                <li>Linux</li>
+                    <li>Linux</li>
                     <li>PHP vanilla</li>
                     <li>HTML</li>
                     <li>CSS</li>
@@ -119,7 +118,7 @@ include('header.php');
             <h2>Technologies utilisées</h2>
             <div class="tools_list">
                 <ul>
-                <li>Linux</li>
+                    <li>Linux</li>
                     <li>PHP avec Symfony</li>
                     <li>HTML</li>
                     <li>CSS</li>
@@ -164,7 +163,7 @@ include('header.php');
             <h2>Technologies utilisées</h2>
             <div class="tools_list">
                 <ul>
-                <li>Linux</li>
+                    <li>Linux</li>
                     <li>PHP avec Symfony</li>
                     <li>HTML</li>
                     <li>CSS</li>
@@ -178,7 +177,7 @@ include('header.php');
     <section class="odd_section">
         <div class="first_container">
             <div class="left_container">
-                <h1>Site de paris en ligne - Non terminé</h1>
+                <h1>Site de paris en ligne</h1>
                 <div class="image_container">
                     <div class="click-zoom">
                         <label>
@@ -215,12 +214,14 @@ include('header.php');
                             <input type="checkbox">
                             <img src="images/bet5.png" alt="Une image du site de pari">
                         </label>
-                    </div>     <div class="click-zoom">
+                    </div>
+                    <div class="click-zoom">
                         <label>
                             <input type="checkbox">
                             <img src="images/bet6.png" alt="Une image du site de pari">
                         </label>
-                    </div>     <div class="click-zoom">
+                    </div>
+                    <div class="click-zoom">
                         <label>
                             <input type="checkbox">
                             <img src="images/bet7.png" alt="Une image du site de pari">
@@ -249,7 +250,7 @@ include('header.php');
             <h2>Technologies utilisées</h2>
             <div class="tools_list">
                 <ul>
-                <li>Linux</li>
+                    <li>Linux</li>
                     <li>PHP avec Symfony</li>
                     <li>HTML</li>
                     <li>CSS</li>
@@ -263,21 +264,24 @@ include('header.php');
     <section class="even_section">
         <div class="first_container">
             <div class="left_container">
-                    <h1>Coin Pusher VR</h1>
-                    <img id="echappeeszen_img" src="" alt="Le logo de CPVR">
+                <h1>Coin Pusher VR</h1>
+                <img id="cpvr" src="images/CPVR_Main_Title.jpg" alt="Le logo de CPVR">
+                <iframe id="cpvr_video" width="560" height="315" src="https://www.youtube.com/embed/N4CvH83a6qU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
             <div class="right_container">
                 <p>Toujours avec Maxime Auneau (eh oui, on a pas mal travaillé ensemble!), nous avons commencé
                     un jeu vidéo en Réalité Virtuelle. <br>
-                    Nous nous sommes donc formés à Unity pour explorer ce logiciel et voir ce qu'on 
+                    Nous nous sommes donc formés à Unity pour explorer ce logiciel et voir ce qu'on
                     pouvait arriver à faire.<br>
-                    Nous avons également utilisé des logiciels de 3D pour modéliser certains objets, 
+                    Nous avons également utilisé des logiciels de 3D pour modéliser certains objets,
                     ainsi qu'une API pour gérer l'inventaire des utilisateurs : <a id="lootlocker" href="https://lootlocker.com/">Lootlocker</a>
                 </p>
                 <p>
-                    L'idée est de recréer un "coin pusher", ce jeu de fête foraine dans lequel on met des 
-                    pièces dans une machine pour faire tomber des lots, le tout en VR pour une immersion 
+                    L'idée est de recréer un "coin pusher", ce jeu de fête foraine dans lequel on met des
+                    pièces dans une machine pour faire tomber des lots, le tout en VR pour une immersion
                     la plus réaliste possible.<br>
+                    Pour le moment, nous avons créé 3 salles (3 ambiances!), une machine dédiée par salle, un inventaire,
+                    des gains en 3D qu'on peut donc récupérer grâce à l'inventaire, une connection à son compte joueur, etc.
                 </p>
                 <p>
                     Le jeu n'est pas terminé, mais vous pouvez avoir une idée du travail effectué en regardant la vidéo ci-jointe.
@@ -287,7 +291,7 @@ include('header.php');
         <div class="tools">
             <h2>Technologies utilisées</h2>
             <div class="tools_list">
-                <ul>                    
+                <ul>
                     <li>Windows</li>
                     <li>Unity</li>
                     <li>C#</li>
@@ -298,3 +302,4 @@ include('header.php');
             </div>
         </div>
     </section>
+    </body>

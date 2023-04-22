@@ -25,14 +25,14 @@
                 </div>
                 <div id="right_link_container">
                     <span class="dropdown">
-                        <a href="{{ path('kinesiologie') }}" class="dropdown-menu">ME DECOUVRIR</a>
+                        <a href="discover_me.php" class="dropdown-menu">ME DECOUVRIR</a>
                     </span>
                     <span>
                         <a href="projects.php">PROJETS</a>
                     </span>
 
                     <span>
-                        <a href="{{ path('contact') }}">CONTACT</a>
+                        <a href="contact.php">CONTACT</a>
                     </span>
                 </div>
                 <div id="menuToggle">
@@ -44,12 +44,12 @@
                     </div>
                     <ul id="menu">
                         <li class="dropdown-mobile" id="dropdown-mobile">
-                            <a href="{{ path('kinesiologie') }}" class="dropdown-menu-mobile" id="dropdown-menu-mobile">ME DECOUVRIR</a>
+                            <a href="discover_me.php" class="dropdown-menu-mobile" id="dropdown-menu-mobile">ME DECOUVRIR</a>
                         </li>
                         <a href="projects.php">
                             <li>PROJETS</li>
                         </a>
-                        <a href="{{ path('contact') }}">
+                        <a href="contact.php">
                             <li>CONTACT</li>
                         </a>
                     </ul>
@@ -57,4 +57,3 @@
             </div>
         </div>
     </nav>
-</body>
