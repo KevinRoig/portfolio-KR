@@ -1,0 +1,71 @@
+footer {
+    width: 100vw;
+    background-color: black;
+    color: white;
+}
+
+.footer_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    padding: 1rem 0;
+}
+
+footer h2 {
+    margin-bottom: 0;
+}
+
+.footer_contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+}
+
+.footer_about_me,
+.footer_social {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer_button_container a {
+    padding: 0.5rem 1rem;
+    background-color: rgba(247, 162, 0, 1);
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    text-align: center;
+    line-height: 40px;
+    transition: color 0.3s;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.footer_button_container a:hover {
+    color: #000;
+    cursor: pointer;
+}
+
+.made_by {
+    margin-top: 1rem;
+}
+
+.made_by a {
+    color: rgba(247, 162, 0, 1);
+    font-weight: 600;
+}
+
+#logo_linkedin,
+#logo_github {
+    width: 40px;
+}
+
+#logo_github {
+    margin-left: 1rem;
+}

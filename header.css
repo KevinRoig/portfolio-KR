@@ -6,6 +6,9 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
     background-color: #fbfbfb;
     box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 a {
@@ -245,7 +248,7 @@ a {
     }
 
     #menuToggle a:hover {
-        color: #00828f;
+        color: #ffffff;
     }
 
 
@@ -273,7 +276,7 @@ a {
         margin-bottom: 5px;
         position: relative;
 
-        background: #cdcdcd;
+        background: #ffffff;
         border-radius: 3px;
 
         z-index: 1;

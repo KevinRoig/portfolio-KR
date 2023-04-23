@@ -18,6 +18,7 @@ include('header.php');
             <img src="images/logo-accueil.png" alt="Le logo du National tir à l'arc UFOLEP 2023">
             <img src="images/PROFILS DE RÉSEAUX_03.jpg" alt="Le logo du site mc-kinesiologie.fr">
             <img src="images/Logo.svg" alt="Le logo du site Echappeeszen.com">
+            <img src="images/bet6.png" alt="Une image du site de pari">
             <img src="images/CPVR_Main_Title.jpg" alt="Le logo de CPVR">
         </div>
     </div>
@@ -31,5 +32,6 @@ include('header.php');
         </div>
     </div>
 </section>
-
-</body>
+<?php
+include('footer.php');
+?>

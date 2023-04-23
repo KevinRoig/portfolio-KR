@@ -1,5 +1,5 @@
 .odd_section {
-
+    flex: 1;
     width: 100vw;
     font-size: 1.05rem;
     line-height: 1.5;
@@ -19,11 +19,14 @@ section h1 {
 
 .main_container {
     display: flex;
+    width: 80%;
+    margin: auto;
 }
 
 .infos_container {
-    width: 50%;
+    width: 60%;
     padding: 2rem;
+    text-align: justify;
 }
 
 #wild {
@@ -31,16 +34,14 @@ section h1 {
     font-weight: 600;
 }
 
-
 .skills {
-    width: 50%;
+    width: 40%;
     padding: 2rem;
 }
 
 .tools_list ul {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
     padding: 0;
     margin: 0;
 }
@@ -49,16 +50,45 @@ section h1 {
     list-style: none;
     padding: 0.5rem 1rem;
     background-color: rgba(247, 162, 0, 1);
-    margin: 0.3rem;
+    margin: 0.5rem 1rem 0.5rem 0;
     border-radius: 5px;
     color: white;
 }
 
+.button_container {
+    margin-top: 2rem;
+}
+
+.button_container a {
+    padding: 0.5rem 1rem;
+    background-color: rgba(247, 162, 0, 1);
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    text-align: center;
+    line-height: 40px;
+    transition: color 0.3s;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    box-shadow: 5px 5px 5px rgba(224, 147, 0, 0.36);
+}
+
+.button_container a:hover {
+    color: #000;
+    cursor: pointer;
+}
 
 @media screen and (max-width: 800px) {
-
-    .projects_container,
-    .discover_me_container {
+    .main_container {
         width: 90%;
+        flex-direction: column;
+    }
+
+    .infos_container,
+    .skills {
+        padding: 0 0 4rem 0;
+        width: 100%;
     }
 }
