@@ -49,12 +49,16 @@
                         <li class="dropdown-mobile" id="dropdown-mobile">
                             <a href="discover_me.php" class="dropdown-menu-mobile" id="dropdown-menu-mobile">ME DECOUVRIR</a>
                         </li>
-                        <a href="projects.php">
-                            <li>PROJETS</li>
-                        </a>
-                        <a href="contact.php">
-                            <li>CONTACT</li>
-                        </a>
+                        <li>
+                            <a href="projects.php">
+                                PROJETS
+                            </a>
+                        </li>
+                        <li>
+                            <a href="contact.php">
+                                CONTACT
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </div>

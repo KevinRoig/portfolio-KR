@@ -8,7 +8,7 @@ include('header.php');
     <div class="name_intro">
         <h1>Bonjour,</h1>
         <h1>je suis Kevin.</h1>
-        <h3>Développeur Web Fullstack, mais pas que.</h3>
+        <h2>Développeur Web Fullstack, mais pas que.</h2>
     </div>
     <div class="projects_container">
         <a class="projects_button" href="projects.php">
