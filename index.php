@@ -2,6 +2,7 @@
 include('header.php');
 ?>
 <link rel="stylesheet" href="index.css">
+<title>Kevin Roig - Développeur Web</title>
 
 <section id="intro" class="odd_section">
     <div class="name_intro">

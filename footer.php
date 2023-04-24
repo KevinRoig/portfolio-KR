@@ -19,10 +19,10 @@
             <h2>LIENS</h2>
             <div>
                 <a href="https://www.linkedin.com/in/kevin-roig/" target="_blank">
-                    <img id="logo_linkedin" src="images/logo_linkedin.png" alt="Le logo de LinkedIn">
+                    <img id="logo_linkedin" src="images/logo_linkedin_orange.png" alt="Le logo de LinkedIn">
                 </a>
                 <a href="https://github.com/KevinRoig" target="_blank">
-                    <img id="logo_github" src="images/github-mark-white.png" alt="Le logo de Github">
+                    <img id="logo_github" src="images/github-mark-orange.png" alt="Le logo de Github">
                 </a>
             </div>
         </div>

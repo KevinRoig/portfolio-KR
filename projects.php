@@ -2,8 +2,13 @@
 include('header.php');
 ?>
 <link rel="stylesheet" href="projects.css">
-
+<title>Projets réalisés</title>
 <section id="projects" class="odd_section">
+    <div>
+        <h1 id="projects_intro">Voici quelques projets que j'ai réalisé, seul ou en équipe.</h1>
+    </div>
+
+
     <div class="first_container">
         <div class="left_container">
             <a href="https://myknives.net" target="_blank" title="Voir le site">

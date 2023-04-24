@@ -13,8 +13,8 @@ footer {
     padding: 1rem 0;
 }
 
-footer h2 {
-    margin-bottom: 0;
+.footer_about_me p {
+    margin-top: 0;
 }
 
 .footer_contact {
@@ -30,6 +30,11 @@ footer h2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width: 30%;
+}
+
+.footer_social {
+    align-items: end;
 }
 
 .footer_button_container a {
@@ -68,4 +73,28 @@ footer h2 {
 
 #logo_github {
     margin-left: 1rem;
+}
+
+@media screen and (max-width: 800px) {
+    .footer_container {
+        width: 90%;
+        flex-direction: column;
+        align-items: baseline;
+    }
+    .footer_container h2 {
+        margin-bottom: 0;
+    }
+    .footer_about_me, 
+    .footer_contact,
+    .footer_social {
+        width: 100%;
+    }
+    .footer_contact {
+        align-items: baseline;
+        margin: 1rem 0;
+    }
+
+    .footer_social {
+        align-items: baseline;
+    }
 }

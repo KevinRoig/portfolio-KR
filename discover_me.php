@@ -2,7 +2,7 @@
 include('header.php');
 ?>
 <link rel="stylesheet" href="discover_me.css">
-
+<title>Venez me découvrir</title>
 <section class="odd_section">
     <div class="name_intro">
         <h1>Vous trouverez ici un résumé de mon parcours et les technologies que j'utilise.</h1>
@@ -24,11 +24,13 @@ include('header.php');
                     du 9 mai au 1er août 2023.
                 </p>
                 <p>
-                    Je parle un anglais technique et courant.
+                    Je suis curieux, intéressé, facile d'accès et je connais le monde de l'entreprise
+                    puisque j'ai déjà eu une "première" carrière. Je parle un <strong>anglais technique et courant</strong>. <br>
+                    Je ne suis pas juste un dev, je sais aussi parler avec un client, le comprendre et vulgariser la technique pour que le dialogue soit facilité.
                 </p>
                 <p>
                     Sur un plan plus personnel, je m'intéresse à pas mal de choses différentes, donc je ne vais pas me résumer à 3 mots ici,
-                    il faudra se rencontrer pour mieux se connaître.
+                    il faudra se rencontrer pour mieux me connaître.
                 </p>
                 <p>
                     Je suis ouvert aux propositions d'emploi, n'hésitez pas à me contacter si mon profil vous plaît!
