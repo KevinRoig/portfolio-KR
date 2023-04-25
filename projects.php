@@ -310,6 +310,40 @@ include('header.php');
         </div>
     </div>
 </section>
+<section class="odd_section">
+    <div class="first_container">
+        <div class="left_container">
+            <a href="https://kevinroig.myknives.net" target="_blank" title="Voir le site">
+                <h1>Mon portfolio</h1>
+            </a>
+            <a href="http://kevinroig.myknives.net/" target="_blank" title="Voir le site">
+                <img src="images/KR_face5.png" alt="Une photo retouchée de Kevin Roig">
+            </a>
+        </div>
+        <div class="right_container">
+            <p>
+                Et bien évidemment, pour terminer, il y a mon portfolio! <br>
+            </p>
+            <p>
+                Fait en vanilla, puisque cela ne nécessite pas de sortir le grand jeu, et que ça permet de 
+                rester raisonnable sur la taille utilisée sur le serveur (on est presque déjà à 100Mo pour un site en Symfony vierge, contre 3Mo ici, après optimisation!).
+            </p>
+        </div>
+    </div>
+    <div class="tools">
+        <h2>Technologies utilisées</h2>
+        <div class="tools_list">
+            <ul>
+                <li>Linux</li>
+                <li>PHP vanilla</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript vanilla</li>
+                <li>Versioning avec Git et Github</li>
+            </ul>
+        </div>
+    </div>
+</section>
 <?php
 include('footer.php');
 ?>
