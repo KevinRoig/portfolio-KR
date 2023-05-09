@@ -5,7 +5,7 @@ include('header.php');
 <title>Projets réalisés</title>
 <section id="projects" class="odd_section">
     <div>
-        <h1 id="projects_intro">Voici quelques projets que j'ai réalisé, seul ou en équipe.</h1>
+        <h1 id="projects_intro">Voici quelques projets que j'ai réalisés, seul ou en équipe.</h1>
     </div>
 
 
@@ -118,7 +118,7 @@ include('header.php');
                 J'ai là encore quasiment tout créé, sauf le logo et la charte graphique qui m'ont été fournis.
             </p>
             <p>
-                Le site est quasiment terminé et sera mis en ligne d'ici quelques jours.
+                Le site est terminé et vient d'être mis en ligne par mes soins.
             </p>
         </div>
     </div>

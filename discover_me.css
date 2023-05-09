@@ -55,8 +55,10 @@ section h1 {
     color: white;
 }
 
-.button_container {
-    margin-top: 2rem;
+.buttons_container {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 0 4rem 0;
 }
 
 .button_container a {

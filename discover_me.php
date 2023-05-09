@@ -35,8 +35,13 @@ include('header.php');
                 <p>
                     Je suis ouvert aux propositions d'emploi, n'hésitez pas à me contacter si mon profil vous plaît!
                 </p>
-                <div class="button_container">
-                    <a href="contact.php">Contact</a>
+                <div class="buttons_container">
+                    <div class="button_container">
+                        <a href="contact.php">Contact</a>
+                    </div>
+                    <div class="button_container">
+                        <a href="/images/CV_Kevin_Roig_Developpeur_Web_05_2023.pdf" target="_blank">Voir mon CV</a>
+                    </div>
                 </div>
             </div>
         </div>

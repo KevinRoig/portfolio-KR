@@ -10,6 +10,7 @@
     <meta name="description" content="Kevin Roig, Développeur Web Fullstack, vous présente son portfolio. N'hésitez pas à le contacter pour tout projet.">
     <link rel="stylesheet" href="header.css">
     <link rel="icon" href="images/favicon.ico">
+    <link rel="shortcut icon" href="images/favicon.ico">
 </head>
 
 </html>
