@@ -163,7 +163,7 @@ include('header.php');
                 Nous avons donc naturellement choisi d'utiliser Symfony au vu des besoins.
             </p>
             <p>
-                Le site est quasiment terminé et sera mis en ligne d'ici quelques jours.
+                Le site est en ligne, le client n'a plus qu'à rentrer les données qu'il souhaite pour faire vivre ce projet.
             </p>
         </div>
     </div>
